@@ -12,13 +12,3 @@ for i in range(num_results):
 	for next in results:
 		text = next['text']
 		print text
-	# formatted = json.dumps(jsonResponse, indent=2, separators=(',',':'))
-# print formatted
-	# text = jsonResponse["text"]
-	# print text
-	# print jsonResponse
-	# results = jsonResponse["results"]
-	# print results
-# print "Page %s" % str(i + 1)
-	# for next in results:
-	# 	print next['text']
